@@ -9,4 +9,16 @@ light linking, control what lights affect what surfaces. Windoes->Relationship E
 		//Rendering Editors->Light Editor to see all of the lights in scene.
 
 
+Just remember to think about what is realistic for your scene.
 
+Arnold tab in the shape tab of the attribute editor also works really well. Can also turn objects off, etc.
+
+This is where you can also turn off cast shadows, which is NOT something you should really use unless it's a background obj or something.
+
+Can keyframe these, but you can't actually see them unless you go to the graph editor.
+
+AIShadowMap shader basically does not render the floor, but does render shadows. 
+
+Ai Ambient Occlusion to add ambient occlusion. You then render out the thing just with these, and then overlay all the renders of both ontop of eachother in after effects and use the multiply option.
+
+Portal Lights. Less relevant for outdoor, if you want to shine light through window.
