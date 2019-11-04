@@ -1,0 +1,12 @@
+Exposure is more realwoldy. Intensity increases linearly, while exposure increases exponentially.
+
+3 point lighting. One key(main) light. One as a rim light, and one to fill light.
+
+Key light is generally brightest.
+fill light to have less harsh shadows. Ty making it a different color to really see what is happening.
+
+light linking, control what lights affect what surfaces. Windoes->Relationship Editors->Light Linking
+		//Rendering Editors->Light Editor to see all of the lights in scene.
+
+
+
