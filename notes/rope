@@ -1,0 +1,12 @@
+How to make a rope with a nurbs curve.
+
+Create a straigt nurbs curve, with joints evenly spread throughout. 
+
+FX menu -> nHair -> make selected curve dynamic.
+
+You make an original versio and then also have a dynamic version.
+
+Can move original curve and the dynamic ones try to keep to it, you can see in editor if you turn on the editor interactions.
+
+Just look it up.
+
