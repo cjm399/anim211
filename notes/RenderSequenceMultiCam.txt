@@ -1,0 +1,19 @@
+Week 8 notes:
+
+You can render from multiple camera's.
+
+You need to use render layers. 
+
+You make layers, then right click on the layer, then hit create collection, then you drag in the first camera, and everything else in the scene. Then make another layer, right click, create collection Then drag in the second camera, and everything else in the scene.
+
+From this, you can 
+
+Windows,rendering editors, render setup -> gets you to this window. Also, the button next to the hypershade button.
+
+Then, in yuor render settings, you can see that you can pick a render layer. Go to render from range, then right click on it, relative override. Them set the values you want for this camera.
+
+Repeat this process for the second camera. Then do a batch render (She thinks that ender sequence works the same way.)
+
+Seems hard to get it through, but, it seems it doesn't really work with sequences, which I need to use, unless I want a watermark.
+
+You can set this up with scripting, should maybe make a script for this, even though I don't need it for my final. Could be useful anyway.
