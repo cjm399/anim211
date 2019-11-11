@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
-//Name: siren_IMPORT.ma
-//Last modified: Mon, Nov 11, 2019 11:21:53 AM
+//Name: siren.0007.ma
+//Last modified: Mon, Nov 11, 2019 11:21:37 AM
 //Codeset: 1252
 requires maya "2019";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiAreaLight"
@@ -2277,4 +2277,4 @@ connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId3.msg" ":initialShadingGroup.gn" -na;
 connectAttr "InwardLight.iog" ":defaultLightSet.dsm" -na;
 connectAttr "OutwardLight.iog" ":defaultLightSet.dsm" -na;
-// End of siren_IMPORT.ma
+// End of siren.0007.ma
