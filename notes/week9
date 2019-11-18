@@ -1,0 +1,31 @@
+Mash
+
+Creating barbed wire, etc.
+
+Create a curve, get two disks, and position them at end of curve.
+
+Extrude along the curve. Get faces and then click the curve, extrude, add divisions.
+
+To Twist it, go to the history of the extrude face, and add to the twist value,very high like 5000
+
+Next we want to put barbs on this "wire" create a helix and make it look like a barb.
+
+We want to use Mash to distribute the object along the curve.
+
+Go to mash tab, click create mash network, Open mash editor, go to mash network and clicj the curve node.
+
+Drag curve from the outliner into the mash network.
+
+Go back to mash network distribute node, set x dist to 0.
+
+Go back to curve node and modify the step to a suitable number.
+
+Barbs are not aligned to curve properly, go back to original barb created, rotate this and notice that all barbs rotate. Fix things so  that it is aligned.
+
+Making things more random.
+
+Go back to mash network, add random node.
+
+Se X rotation to a high value, *or whatever axis you need to rotate around)
+
+
