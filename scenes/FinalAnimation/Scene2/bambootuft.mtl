@@ -1,0 +1,28 @@
+newmtl bamboo1LeafShaderSG
+illum 4
+Kd 0.17 0.33 0.17
+Ka 0.00 0.00 0.00
+Tf 0.00 0.00 0.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 1.00
+newmtl bamboo1ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl bamboo2LeafShaderSG
+illum 4
+Kd 0.17 0.33 0.17
+Ka 0.00 0.00 0.00
+Tf 0.00 0.00 0.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 1.00
+newmtl bamboo2ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
