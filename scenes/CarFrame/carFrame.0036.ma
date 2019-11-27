@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
-//Name: carFrame_IMPORT.ma
-//Last modified: Tue, Nov 26, 2019 08:19:06 PM
+//Name: carFrame.0036.ma
+//Last modified: Tue, Nov 26, 2019 08:18:50 PM
 //Codeset: 1252
 requires maya "2019";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiStandardSurface"
@@ -55041,4 +55041,4 @@ connectAttr "BambooMat1.msg" ":defaultShaderList1.s" -na;
 connectAttr "place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
-// End of carFrame_IMPORT.ma
+// End of carFrame.0036.ma

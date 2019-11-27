@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
-//Name: carFrame_IMPORT.ma
-//Last modified: Tue, Nov 26, 2019 08:19:06 PM
+//Name: carFrame.0035.ma
+//Last modified: Tue, Nov 26, 2019 08:18:39 PM
 //Codeset: 1252
 requires maya "2019";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiStandardSurface"
@@ -16,15 +16,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "B9855E79-477E-85C5-CB02-2F9DC3CFEF1D";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 54.88348417222474 31.033722649882826 -32.239322880562924 ;
-	setAttr ".r" -type "double3" -22.538352729667913 1547.7999999997915 -359.99999999916463 ;
+	setAttr ".t" -type "double3" 19.274091714069538 23.677943055186461 -48.988473493628184 ;
+	setAttr ".r" -type "double3" -22.538352730330995 1592.5999999997928 -359.99999999971249 ;
 	setAttr ".rp" -type "double3" -3.5527136788005009e-15 1.7763568394002505e-15 0 ;
 	setAttr ".rpt" -type "double3" 6.1099029612481085e-15 -4.1028945627742318e-17 2.4953232614734288e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "9FC11321-487E-1F50-492B-1AAC9971276B";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 60.420292467074773;
+	setAttr ".coi" 41.229722304502069;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -55041,4 +55041,4 @@ connectAttr "BambooMat1.msg" ":defaultShaderList1.s" -na;
 connectAttr "place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
-// End of carFrame_IMPORT.ma
+// End of carFrame.0035.ma
